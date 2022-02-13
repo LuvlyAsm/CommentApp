@@ -1,0 +1,26 @@
+			COMMENT APP
+			------------------------
+
+
+1.In this Project I used HTML,CSS,JSP,SERVLET,MYSQL database,JDBC Connectivity and Tomcat server as well
+2.I configured tomcat server in my eclipse j2ee
+3.And also I configured MySQL Workbench   and also created table called "Cridential" to save email,password,secret code. and also created table called "comments" to store email and comments
+4.I imported needed jar files and sql connector 
+
+5.It has 4 parts
+6.index.jsp,forgot-Password.jsp,index-redirect.jsp,welcome.jsp
+7.And I also configured those jsp pages to the Servlets to hide the operations
+8.When clicking LogIn from index.jsp,it will go to the Validation.java which is acts as servlet
+9.In that Validation.java Servlet,I created a JDBC Connection which will fetch the details from MySQL DB.
+10.After that I wrote a If condition to check the details.if the pasword matches,the welcome page will be called.else it will be redirect to index-redirect.jsp
+11.index-redirect.jsp is nothing but the same index page with error message
+12.When you click forgot password Forgot-Password.jsp will be called
+13.and after giving secret code i will be called the servlet
+14.servlet will give password if email and secret code matches
+15.when you give signup,it will call signup.jsp
+16.here also i wrote a jdbc connection store those values into Database
+17.Then after successful signup,the welcome page should be called
+18.In welcome page we can write comment
+19.There also I wrote a jdbc steps to storevthose comments in the table called "comments"
+20.Thats all. Thanks You 
+ 

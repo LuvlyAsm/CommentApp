@@ -1,0 +1,11 @@
+
+COMMENT APP
+-------------------------
+
+1.Configure all the Server,Database,and libraries to eclipse j2ee
+2.In database create table  called "Cridential" which should have 3 column email,passwd,secret
+3.and also create table called "comments" which should have the column email,comment
+4.Make sure that the jsp files and design files in under WEB-INF folder
+5.and create a java package and place those java sevlets inside it pacakage name should be "com.CommentAppByASM".
+6.then override the web.xml with the given web.xml
+&Then run it You can clearly get an output

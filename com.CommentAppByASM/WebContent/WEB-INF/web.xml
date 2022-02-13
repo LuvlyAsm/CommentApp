@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+<servlet>
+	<servlet-name>serv1</servlet-name>
+	<servlet-class>com.CommentAppByASM.Validation</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>serv1</servlet-name>
+	<url-pattern>/validate</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>serv2</servlet-name>
+	<servlet-class>com.CommentAppByASM.Signupp</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>serv2</servlet-name>
+	<url-pattern>/sign</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>serv3</servlet-name>
+	<servlet-class>com.CommentAppByASM.Forgott</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>serv3</servlet-name>
+	<url-pattern>/forg</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>serv4</servlet-name>
+	<servlet-class>com.CommentAppByASM.welcome</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>serv4</servlet-name>
+	<url-pattern>/welc</url-pattern>
+</servlet-mapping> 
+</web-app>
